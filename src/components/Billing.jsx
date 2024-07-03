@@ -4,7 +4,7 @@ import styles, { layout } from '../style'
 
 const Billing = () => {
   return (
-    <section id='offerings' className={layout.sectionReverse}>
+    <section id='' className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
         <img
           src={career_progress}

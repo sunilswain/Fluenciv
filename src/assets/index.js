@@ -37,18 +37,24 @@ import muruku from "./muruku_logo.png"
 // Vector Graphics
 import conference_call from "./conference_call.svg"
 import interview from "./interview.svg"
-import resume from "./resume.svg"
+import resume1 from "./resume1.svg"
 import career_progress from "./career_progress.svg"
 import projects from "./projects.svg"
 import profile_pic_male from "./profile_pic_male.svg"
 import profile_pic_female from "./profile_pic_female.svg"
+import resume2 from "./resume2.svg"
+import resume3 from "./resume3.svg"
+import questions from "./questions.svg"
 
 export {
+  questions,
   profile_pic_male,
   profile_pic_female,
   conference_call,
   interview,
-  resume,
+  resume1,
+  resume2,
+  resume3,
   career_progress,
   projects,
   tagaddod,

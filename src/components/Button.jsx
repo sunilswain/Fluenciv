@@ -1,8 +1,13 @@
 import React from 'react'
 
-const Button = ({ styles }) => {
+const Button = ({ styles, link}) => {
   const handleClick = () => {
-    window.location.href = 'https://r9yn806z8bd.typeform.com/to/DDAEYsBW';
+    if (link) {
+      window.location.href = link
+    }
+    else{
+      window.location.href = 'https://r9yn806z8bd.typeform.com/to/DDAEYsBW';
+    }
   };
 
   return (

@@ -9,7 +9,8 @@ import {
   Hero, 
   Navbar, 
   Stats, 
-  Testimonials 
+  Testimonials,
+  Offers
 } from './components'
 import styles from './style'
 
@@ -31,6 +32,7 @@ const App = () => {
           <Stats/>
           <Business/>
           <Billing/>
+          <Offers/>
           <CardDeal/>
           <Testimonials/>
           {/* <Clients/> */}

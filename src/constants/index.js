@@ -11,7 +11,13 @@ import {
   lion_volt,
   shield, 
   saphire,
-  money
+  money,
+  interview,
+  resume1,
+  resume2,
+  resume3,
+  questions,
+  projects
 } from "../assets";
 
 export const navLinks = [
@@ -83,6 +89,71 @@ export const feedback = [
     img: profile_pic_male,
   },
 ];
+
+export const offers = [
+  {
+    id: "offer-1",
+    title: "Interview Prep",
+    description: "Our sessions offer personalized mentorship tailored to help you master communication and soft skills.",
+    includes: [
+      "WEEK 1: Introduction to Interview Preparation, What are Interview Skills?",
+      "WEEK 2: Group Discussions - Dos and Don'ts, Public Speaking, Body Language",
+      "WEEK 3: How to Answer Interview FAQs, Interview Strategies",
+      "WEEK 4: Mock Interviews with special 1:1 sessions",
+      "Add-ons: Free ATS Resume Template"
+    ],
+    image: interview
+  },
+  {
+    id: "offer-2",
+    title: "ATS Resume Template + Resume Guide",
+    description: "Building the right resume can land you your dream job. How to create an ATS-friendly resume? Relax, we've got you covered.",
+    includes: [
+      "ATS-Friendly Resume Templates for different positions",
+      "A Resume Guide on How to Build Your Resume"
+    ],
+    image: resume1
+  },
+  {
+    id: "offer-3",
+    title: "Build Your Cover Letter",
+    description: "A standout cover letter can make a difference. How to create a tailored cover letter? Here’s what we offer:",
+    includes: [
+      "A Professional Cover Letter Template"
+    ],
+    image: resume2
+  },
+  {
+    id: "offer-4",
+    title: "Resume + Cover Letter",
+    description: "We offer a 2-in-1 package that includes both your resume and cover letter.",
+    includes: [
+      "ATS Resume Template and Customized Cover Letter"
+    ],
+    image: resume3
+  },
+  {
+    id: "offer-5",
+    title: "Interview Answer Scripts",
+    description: "Confidence is key to making a great impression in interviews. Being prepared boosts confidence.",
+    includes: [
+      "We offer: Interview FAQs for various companies"
+    ],
+    image: questions
+  },
+  {
+    id: "offer-6",
+    title: "Project Mentorship",
+    description: "Hands-on experience is crucial for freshers to prove their capabilities. Struggling with a project? Don't worry, we have a solution.",
+    includes: [
+      "A Ready-Made Project",
+      "Assistance with Setting Up the Project in Your Environment",
+      "In-Depth Knowledge of the Project and Its Details"
+    ],
+    image: projects
+  },
+];
+
 
 export const stats = [
   {
