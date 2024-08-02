@@ -96,50 +96,54 @@ export const offers = [
     title: "Interview Prep",
     description: "Our sessions offer personalized mentorship tailored to help you master communication and soft skills.",
     includes: [
-      "WEEK 1: Introduction to Interview Preparation, What are Interview Skills?",
-      "WEEK 2: Group Discussions - Dos and Don'ts, Public Speaking, Body Language",
-      "WEEK 3: How to Answer Interview FAQs, Interview Strategies",
-      "WEEK 4: Mock Interviews with special 1:1 sessions",
-      "Add-ons: Free ATS Resume Template"
+      "Introduction to Interview Preparation, What are Interview Skills?",
+      "Group Discussions - Dos and Don'ts, Public Speaking, Body Language",
+      "How to Answer Interview FAQs, Interview Strategies",
+      "Mock Interviews with special 1:1 sessions",
+      "Add-ons(+): Free ATS Resume Template"
     ],
-    image: interview
+    image: interview,
+    link: "https://pages.razorpay.com/Fluenciv"
   },
   {
     id: "offer-2",
-    title: "ATS Resume Template + Resume Guide",
+    title: "ATS Resume + Cover Letter Template",
     description: "Building the right resume can land you your dream job. How to create an ATS-friendly resume? Relax, we've got you covered.",
     includes: [
-      "ATS-Friendly Resume Templates for different positions",
-      "A Resume Guide on How to Build Your Resume"
+      "Two ATS-Friendly Resume Templates",
+"Comprehensive Resume Guide",
+"Effective Cover Letter"
     ],
-    image: resume1
+    image: resume1,
+    link: "https://topmate.io/fluenciv/1122047"
   },
-  {
-    id: "offer-3",
-    title: "Build Your Cover Letter",
-    description: "A standout cover letter can make a difference. How to create a tailored cover letter? Here’s what we offer:",
-    includes: [
-      "A Professional Cover Letter Template"
-    ],
-    image: resume2
-  },
-  {
-    id: "offer-4",
-    title: "Resume + Cover Letter",
-    description: "We offer a 2-in-1 package that includes both your resume and cover letter.",
-    includes: [
-      "ATS Resume Template and Customized Cover Letter"
-    ],
-    image: resume3
-  },
+  // {
+  //   id: "offer-3",
+  //   title: "Build Your Cover Letter",
+  //   description: "A standout cover letter can make a difference. How to create a tailored cover letter? Here’s what we offer:",
+  //   includes: [
+  //     "A Professional Cover Letter Template"
+  //   ],
+  //   image: resume2
+  // },
+  // {
+  //   id: "offer-4",
+  //   title: "Resume + Cover Letter",
+  //   description: "We offer a 2-in-1 package that includes both your resume and cover letter.",
+  //   includes: [
+  //     "ATS Resume Template and Customized Cover Letter"
+  //   ],
+  //   image: resume3
+  // },
   {
     id: "offer-5",
     title: "Interview Answer Scripts",
     description: "Confidence is key to making a great impression in interviews. Being prepared boosts confidence.",
     includes: [
-      "We offer: Interview FAQs for various companies"
+      "You will receive a set of twelve interview questions that are structured around various scenarios, along with well-written sample responses to help you make a lasting impression."
     ],
-    image: questions
+    image: questions,
+    link: "https://topmate.io/fluenciv/1101244"
   },
   {
     id: "offer-6",
@@ -150,7 +154,8 @@ export const offers = [
       "Assistance with Setting Up the Project in Your Environment",
       "In-Depth Knowledge of the Project and Its Details"
     ],
-    image: projects
+    image: projects,
+    link: "https://projects.fluenciv.social"
   },
 ];
 
@@ -243,23 +248,23 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/_fluenciv_/",
   },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
+  // {
+  //   id: "social-media-2",
+  //   icon: facebook,
+  //   link: "https://www.facebook.com/",
+  // },
+  // {
+  //   id: "social-media-3",
+  //   icon: twitter,
+  //   link: "https://www.twitter.com/",
+  // },
+  // {
+  //   id: "social-media-4",
+  //   icon: linkedin,
+  //   link: "https://www.linkedin.com/",
+  // },
 ];
 
 export const clients = [

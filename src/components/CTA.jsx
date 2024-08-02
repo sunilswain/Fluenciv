@@ -12,7 +12,7 @@ const CTA = () => {
         </p>
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0`}>
-        <Button/>
+        <Button text="View our interview-prep program" link="https://pages.razorpay.com/Fluenciv"/>
       </div>
     </section>
   )

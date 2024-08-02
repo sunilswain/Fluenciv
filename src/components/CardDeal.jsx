@@ -12,7 +12,7 @@ const CardDeal = () => {
         <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
         Enjoy ongoing assistance after your training. Our dedicated support team is available to provide guidance, answer questions, and offer feedback whenever you need it, ensuring you remain confident and prepared for all career opportunities.
         </p>
-        <Button styles='mt-10'/>
+        {/* <Button styles='mt-10'/> */}
       </div>
       <div className={layout.sectionImg}>
         <img

@@ -31,7 +31,7 @@ const Business = () => {
         <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
         With Fluenciv, unlock your potential with personalized training to seize your future opportunities. From mastering communication to perfecting your resume, we ensure you're ready to shine, turning your aspirations into achievements.
         </p>
-        <Button styles='mt-10'/>
+        {/* <Button styles='mt-10'/> */}
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (

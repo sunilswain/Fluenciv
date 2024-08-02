@@ -3,7 +3,14 @@ import styles from '../style'
 import { fluenciv_white } from '../assets'
 import { footerLinks, socialMedia } from '../constants'
 
+const handleClick = (link = '#offerings') => {
+  if (link) {
+    window.location.href = link
+  }
+};
+
 const Footer = () => {
+
   return (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
@@ -27,7 +34,7 @@ const Footer = () => {
                 {link.links.map((item, index) => (
                   <li 
                     key={item.name} 
-                    className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== link.links.length - 1 ? 'mb-4' : 'mb-0'}`}
+                    className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite  ${index !== link.links.length - 1 ? 'mb-4' : 'mb-0'}`}
                   >
                     {item.name}
                   </li>
@@ -48,6 +55,7 @@ const Footer = () => {
               key={social.id}
               alt={social.id}
               className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'}`}
+              onclick= {handleClick}
             />
           ))}
         </div>    

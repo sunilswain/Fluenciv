@@ -28,13 +28,13 @@ const Offers = () => {
             </div>
             <h4 className='font-poppins font-semibold text-[20px] leading-[32px] text-white my-10'>{offer.title}</h4>
             <p className='font-poppins font-normal text-[16px] leading-[24px] text-white w-[300px]'>{offer.description}</p>
-            <p className='font-poppins font-bold text-[16px] leading-[24px] text-white w-[300px] my-5'>Includes</p>
+            <p className='font-poppins font-semibold text-[20px] leading-[32px] text-white my-10'>What you will get</p>
             <ul className='font-poppins font-normal text-[18px] leading-[32px] text-white list-disc list-inside'>
               {offer.includes.map((item) => (
                 <li>{item}</li>
               ))}
             </ul>
-            <Button styles='mt-10' link="https://google.com"/>
+            <Button styles='mt-10 font-semibold' link={offer.link} text="Take"/>
           </div>       
         ))}
       </div>      
