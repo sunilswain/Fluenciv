@@ -155,7 +155,7 @@ export const offers = [
       "In-Depth Knowledge of the Project and Its Details"
     ],
     image: projects,
-    link: "https://projects.fluenciv.social"
+    link: "https://linktr.ee/fluenciv"
   },
 ];
 

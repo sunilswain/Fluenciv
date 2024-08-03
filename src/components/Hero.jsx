@@ -14,7 +14,7 @@ const Hero = () => {
           />
           <p className={`${styles.paragraph} ml-2`}>
             <span className='text-white'>Huge</span> Discounts For the{" "}
-            <span className='text-white'> month of July</span> 
+            <span className='text-white'> month of August</span> 
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
